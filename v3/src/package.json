@@ -1,0 +1,16 @@
+{
+  "name": "yumibot",
+  "version": "3.4.0",
+  "description": "none.",
+  "main": "Yumi.js",
+  "scripts": {
+    "test": "pm2 start Yumi.js --name YumiBoat"
+  },
+  "author": "ohlookitsAugust",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "discord.js": "^11.1.0",
+    "humanize-duration": "^3.10.1",
+    "snekfetch": "^3.2.9"
+  }
+}
