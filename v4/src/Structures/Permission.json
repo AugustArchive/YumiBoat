@@ -1,0 +1,10 @@
+{
+    "YumiPerms": {
+        "BOTOWNER": 0,
+        "DEVELOPER": 1,
+        "SERVERADMIN": 2,
+        "SERVERMOD": 3,
+        "USER": 4,
+        "NOONE": 5
+    }
+}
