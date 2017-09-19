@@ -11,6 +11,7 @@ const info = {
 };
 const child = require("child_process");
 const { RichEmbed } = require("discord.js");
+const snek = require("snekfetch");
 
 class ExecCommand extends Command {
    constuctor(bot, group) {
@@ -34,7 +35,7 @@ class ExecCommand extends Command {
                 .setFooter(`YumiBoat v${client.version} made by ${client.Owner.tag}`);
              await msg.channel.send({embed});
           } else {
-            await snekfetch.post(`https://feed-the-wump.us`).post(stderr).then((res) => {
+            await snek.post(`https://feed-the-wump.us`).post(stderr).then((res) => {
                const embed = new RichEmbed()
                  .setTitle(`Exec`)
                  .setDescription(`Input: ${input}\n\nOutput: Output was long, posted it on hastebin: (https://feed-the-wump.us/${res.body.key}.js/`)
@@ -51,7 +52,7 @@ class ExecCommand extends Command {
                  .setColor(`GREEN`)
                  .setFooter(`YumiBoat v${client.version} made by ${client.Owner.tag}`);
           } else {
-          await snekfetch.post(`https://feed-the-wump.us`).post(stderr).then((res) => {
+          await snek.post(`https://feed-the-wump.us`).post(stderr).then((res) => {
                const embed = new RichEmbed()
                  .setTitle(`Exec`)
                  .setDescription(`Input: ${input}\n\nOutput: Output was long, posted it on hastebin: (https://feed-the-wump.us/${res.body.key}.js/`)
