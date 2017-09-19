@@ -1,0 +1,18 @@
+{
+  "prefix": "y/",
+  "api_keys": {
+    "Discord": "-- discord api token --",
+    "oliyBots": "-- bot lost 1 --",
+    "discordBoats": "-- bot list 2 --",
+    "directory": "-- bot list 3 --",
+    "rls": "-- rls --",
+    "steam": "-- steam --",
+    "cleverbot": "-- cleverbot --",
+    "Datadog": {
+        "appKey": "-- app key --",
+        "apiKey": "-- api key --"
+    }
+  },
+  "devs": [ "id" ],
+  "invite": "invite"
+}
