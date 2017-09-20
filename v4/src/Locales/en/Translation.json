@@ -1,0 +1,32 @@
+
+{
+  "Ready": {
+     "error": "[ERROR] An error has occured.",
+     "warn": "[WARN] A warning has occured.",
+     "logged": "[DEBUG] Debug Status: ",
+     "notify": "[NOTIFY] "
+  },
+  "Commands": {
+     "Anime": {
+        "SEARCH": "[**ANIME**] You must add a param!",
+        "QUERY": "[**ANIME**] You searched {{SEARCH}}, Now choose over `1-5`; choose wisely!",
+        "NOT_AVALIABLE": "[**ANIME**] Anime wasn't avaliable in the Kitsu.io database.",
+        "ANSWER": "[**ANIME**] You searched {{SEARCH}} and here it is:\n\n__**Titles**__\n\nEnglish: {{SEARCH_ENGLISH}}\nJapanese: {{SEARCH_JAPANESE}}"
+     },
+     "Aqua": {
+        "AQUA_EMBED_TITLE": "",
+        "AQUA_EMBED_DESCRIPTION": "",
+        "AQUA_EMBED_FOOTER": ""
+     },
+     "Ascii": {
+       "NO_ARUGMENTS": "",
+       "ARGUMENT_OVER_7": ""
+     },
+     "Botinfo": {
+        "NO_AVAIABLE_BOT": "",
+        "BOTINFO_AVAIABLE": {
+          "BOT_EMBED_TITLE": "",
+          "BOT_EMBED_DESCRIPTION": ""
+      }
+   }
+}
