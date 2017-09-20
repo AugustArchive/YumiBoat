@@ -1,7 +1,7 @@
 {
 	"name": "yumibot.party/",
 	"version": "1.0.0",
-	"description": "The main website for the Discord Bot: \"YumiBoat"\.",
+	"description": "The main website for the Discord Bot: 'YumiBoat'.",
 	"main": "index.js",
 	"scripts": {
 		"start": "node index.js || pm2 start index.js --name Website"
