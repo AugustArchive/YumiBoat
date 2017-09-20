@@ -7,7 +7,7 @@ app.use((req, res, next) => {
 	next();
 });
 
-app.get('/yumiboat/invite', (req, res) => {
+app.get('/invite', (req, res) => {
    res.redirect("https://discordapp.com/oauth2/authorize?client_id=317145148901556234&scope=bot&permissions=271633518");
 });
 
