@@ -1,0 +1,31 @@
+{
+  "Ready": {
+     "error": "",
+     "warn": "",
+     "logged": "",
+     "notify": ""
+  },
+  "Commands": {
+     "Anime": {
+        "SEARCH": "",
+        "QUERY": "",
+        "NOT_AVALIABLE": "",
+        "ANSWER": ""
+     },
+     "Aqua": {
+        "AQUA_EMBED_TITLE": "",
+        "AQUA_EMBED_DESCRIPTION": "",
+        "AQUA_EMBED_FOOTER": ""
+     },
+     "Ascii": {
+       "NO_ARUGMENTS": "",
+       "ARGUMENT_OVER_7": ""
+     },
+     "Botinfo": {
+        "NO_AVAIABLE_BOT": "",
+        "BOTINFO_AVAIABLE": {
+          "BOT_EMBED_TITLE": "",
+          "BOT_EMBED_DESCRIPTION": ""
+      }
+   }
+}
