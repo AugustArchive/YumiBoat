@@ -37,7 +37,7 @@ class Logger {
    }
 
    debug(content) {
-    this.winston.log('error', `[YUMIBOAT] [Shard: ${this.shardID.id}] - ${content}`);
+    this.winston.log('debug', `[YUMIBOAT] [Shard: ${this.shardID.id}] - ${content}`);
   }
 }
 
